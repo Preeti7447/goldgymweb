@@ -52,9 +52,9 @@ const Navbar= () => {
                     <img
                         src={logo}
                         alt="logo"
-                    />
+                    /> 
                 </div>
-
+                 
                 <ul className="nav-links">
                     <li className="dropdown">
                         <a href="#" className="text-dark" data-bs-toggle="dropdown">
