@@ -51,7 +51,7 @@ const Navbar= () => {
                 <div className="logo">
                     <img
                         src={logo}
-                        alt="logo"
+                        alt="logo_img"
                     /> 
                 </div>
                  
