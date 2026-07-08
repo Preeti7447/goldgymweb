@@ -1,0 +1,59 @@
+.verticals {
+  background-image: linear-gradient(rgba(22, 31, 58, 0.6), rgba(22, 31, 58, 0.6)),url("../../assets/Our-business-verticals.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 30px;
+  text-align: center;
+  min-height: 300px;
+}
+
+.verticals h1 {
+  color: #f4d800;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.sub-vertical {
+    color: #c6b9b9;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 550px;
+  padding: 10px;
+
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+
+.card p {
+  color: #555;
+  font-size: 16px;
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin-left: 240px;
+   padding-bottom: 10px;
+}

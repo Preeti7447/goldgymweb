@@ -1,0 +1,40 @@
+.legacy-section {
+  padding: 30px 60px;
+  background: #fff;
+}
+
+.legacy-title {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.legacy-container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 30px ;
+}
+
+.legacy-video {
+  width: 50%;
+}
+
+.legacy-video iframe {
+  width: 100%;
+  height: 330px; 
+  border: none;
+}
+
+.legacy-content {
+  width: 50%;
+}
+
+.legacy-content p {
+  font-size: 17px;
+  line-height: 1.4;
+  color: #555;
+  margin-bottom: 10px;
+  text-align: justify;
+}

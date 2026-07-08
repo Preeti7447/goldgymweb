@@ -3,8 +3,11 @@
 // import Navbar from "./Navbar";
 import "./Navbar.css";
 import logo from "../../assets/logo.webp";
+import { Link } from "react-router-dom";
 
 const Navbar= () => {
+
+ 
     return (
         <>
             <div className='top-header'>
@@ -93,9 +96,9 @@ const Navbar= () => {
                     </li>
 
                     <li>
-                        <a href="#">
+                        <Link to="/gallery">
                             Gallery
-                        </a>
+                        </Link>
                     </li>
 
                     <li className="dropdown">
