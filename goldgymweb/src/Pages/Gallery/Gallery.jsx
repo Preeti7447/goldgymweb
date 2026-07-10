@@ -24,7 +24,7 @@ const Gallery = () => {
     return (
         <>
             <div className="gallery-banner">
-                <div className="overlay">
+                <div className="overlay-gallery">
                     <h1><span>GALL</span>ERY</h1>
                 </div>
             </div>

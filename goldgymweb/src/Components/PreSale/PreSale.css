@@ -1,0 +1,90 @@
+.presale-section {
+  width: 100%;
+  min-height: 350px;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;
+}
+
+.overlay {
+  background: rgba(37, 46, 61, 0.65);
+  width: 100%;
+  min-height: 350px;
+
+  padding: 60px 80px;
+}
+
+.small-heading {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.small-heading span {
+  color: #ffd700;
+}
+
+.main-heading {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.main-heading span {
+  color: #ffd700;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  width: 45%;
+}
+
+.left h2 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.left ul {
+  list-style: none;
+  padding: 0;
+}
+
+.left li {
+  color: #ffd700;
+  font-size: 15px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.left li i {
+  color: #ffd700;
+  margin-right: 10px;
+}
+
+.right {
+  width: 45%;
+  text-align: center;
+}
+
+.right img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 15px;
+  transition: transform .3s ease;
+}
+
+.right img:hover {
+  transform: scale(1.05);
+}

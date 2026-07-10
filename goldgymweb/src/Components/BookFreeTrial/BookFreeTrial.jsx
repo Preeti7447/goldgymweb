@@ -1,9 +1,7 @@
-import { useNavigate } from "react-router-dom";
+
 import "./BookFreeTrial.css";
 
 const BookFreeTrial = () => {
-
-  const navigate = useNavigate();
 
   return (
     <section className="signup-container">
@@ -14,7 +12,7 @@ const BookFreeTrial = () => {
           Start Your Fitness Journey At Gold's Gym Today
         </p>
 
-        <button className="signup-btn" onClick={()=> navigate("/buy-membership-now")}> Sign Me Up </button>
+        <button className="signup-btn"> Sign Me Up </button>
       </div>
     </section>
   )
