@@ -23,13 +23,13 @@
     z-index:2;
 }
 
-.overlay h1{
+.overlay-gallery h1{
     color:#fff;
     font-size:50px;
     font-weight: bold;
 }
 
-.overlay span{
+.overlay-gallery span{
     color:#ffd400;
 }
 
