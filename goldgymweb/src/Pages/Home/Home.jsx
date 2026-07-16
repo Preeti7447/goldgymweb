@@ -7,6 +7,7 @@ import Institute from "../../Components/Institute/Institute"
 import OurLegacy from "../../Components/OurLegacy/OurLegacy"
 import OurPrograms from "../../Components/OurPrograms/OurPrograms"
 import PreSale from "../../Components/PreSale/PreSale"
+import Testimonials from "../../Components/Testimonials/Testimonials"
 
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
      <PreSale />
      <OurPrograms />
      <Institute />
+     <Testimonials />
     </>
   )
 }
