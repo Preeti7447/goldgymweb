@@ -1,0 +1,85 @@
+.contact-section {
+  width: 100%;
+  padding: 70px 0;
+
+  background-image: url("../../assets/Get-in-touch-with-us-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+}
+
+.contact-box {
+  width: 650px;
+
+  /* background: rgba(255, 247, 247, 0.989); */
+  background: rgba(128,128,128,.92);
+  padding: 20px;
+}
+
+.contact-title {
+  text-align: center;
+  color: #ffd700;
+
+  background: rgba(0,0,0,.35);
+  padding: 15px;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.contact-text {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.514);
+  color: white;
+  padding: 15px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.contact-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: rgba(128,128,128,.92);
+}
+
+.contact-box input,
+.contact-box select,
+.contact-box textarea {
+
+  width: 100%;
+  padding: 10px;
+
+  font-size: 15px;
+  border: none;
+
+  border-radius: 5px;
+  outline: none;
+}
+
+.contact-box textarea {
+  resize: none;
+}
+
+.contact-box button {
+
+  background: #ffe000;
+  color: black;
+
+  border: 1px solid black;
+  border-radius: 40px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: .3s;
+}
+
+.contact-box button:hover {
+
+  background: black;
+  color: #ffe000;
+}
