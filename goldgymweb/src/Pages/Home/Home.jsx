@@ -5,6 +5,7 @@ import Carousel from "../../Components/Carousel/Carousel"
 import ContactForm from "../../Components/ContactForm/ContactForm"
 import Features from "../../Components/Features/Features"
 import Institute from "../../Components/Institute/Institute"
+import Membership from "../../Components/Membership/Membership"
 import OurLegacy from "../../Components/OurLegacy/OurLegacy"
 import OurPrograms from "../../Components/OurPrograms/OurPrograms"
 import PreSale from "../../Components/PreSale/PreSale"
@@ -25,6 +26,7 @@ const Home = () => {
      <Institute />
      <Testimonials />
      <ContactForm />
+     <Membership />
     </>
   )
 }

@@ -1,0 +1,37 @@
+.membership-section{
+    background:#ffe600;
+    padding:30px 0;
+}
+
+.membership-title{
+    font-size:40px;
+    font-weight:300;
+    color:#222;
+    text-align: center;
+    margin-bottom:10px;
+}
+
+.membership-subtitle{
+    font-size:20px;
+    color:#222;
+    margin:0;
+    text-align: center;
+}
+
+.membership-trial-btn{
+
+    background:#000;
+    color:#ffe600;
+
+    border:none;
+
+    padding:22px 45px;
+
+    font-size:22px;
+
+}
+
+.trial-btn:hover{
+
+    background:#222;
+}
