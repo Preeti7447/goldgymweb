@@ -3,41 +3,39 @@ import "./Membership.css";
 
 const Membership = () => {
 
-  const navigate = useNavigate();
+    const navigate = useNavigate();
 
-  return (
-    <section className="membership-section">
-      <div className="container">
+    return (
+        <section className="membership-section">
+            <div className="container">
 
-        <div className="row align-items-center">
+                <div className="row align-items-center">
 
-        
-          <div className="col-lg-8 text-center text-lg-start">
+                    <div className="col-lg-8 text-center text-lg-start">
 
-            <h2 className="membership-title">
-              Buy a Gold's Gym Membership Today.
-            </h2>
+                        <h2 className="membership-title">
+                            Buy a Gold's Gym Membership Today.
+                        </h2>
 
-            <p className="membership-subtitle">
-              Start Your Fitness Journey Today!
-            </p>
+                        <p className="membership-subtitle">
+                            Start Your Fitness Journey Today!
+                        </p>
 
-          </div>
+                    </div>
 
-          
-          <div className="col-lg-4 text-center text-lg-end">
+                    <div className="col-lg-4 text-center text-lg-end">
 
-            <button className="membership-trial-btn" onClick={()=>navigate("/buy-membership-now")}>
-              Book Your Free Trial
-            </button>
+                        <button className="membership-trial-btn" onClick={() => navigate("/buy-membership-now")}>
+                            Book Your Free Trial
+                        </button>
 
-          </div>
+                    </div>
 
-        </div>
+                </div>
 
-      </div>
-    </section>
-  );
+            </div>
+        </section>
+    );
 };
 
 export default Membership;
